@@ -49,13 +49,13 @@ This project predicts the presence of heart disease based on various clinical pa
 
 ## 📈 Models Used
 
-| Model | Best Parameters | Accuracy |
-|-------|------------------|----------|
-| **Random Forest** | `max_depth=10, n_estimators=100` | **87.0%** ✅ |
-| SVM | `C=10, gamma=0.1` | 87.0% |
-| Logistic Regression | `C=10, solver='lbfgs'` | 83.2% |
-| K-Nearest Neighbors | `n_neighbors=5, weights='distance'` | 84.3% |
-| Decision Tree | `criterion='entropy'` | 80.5% |
+| Model |  Accuracy |
+|-------|----------|
+| **Random Forest** | **87.0%** ✅ |
+| SVM |  87.0% |
+| Logistic Regression | 83.2% |
+| K-Nearest Neighbors |  84.3% |
+| Decision Tree | 80.5% |
 
 **🏆 Best Model**: `RandomForestClassifier(max_depth=10)`  
 - Precision: 0.84–0.89  
